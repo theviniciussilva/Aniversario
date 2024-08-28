@@ -1,0 +1,45 @@
+@use '../variables';
+
+.infos-bar{
+    padding: 16px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+
+    &__infos{
+        display: flex;
+        gap: 40px;
+
+        &__item{
+            font-size: 14px;
+            color: variables.$secondaryTextColor;
+
+            b{
+                font-size: 18px;
+                display: block;
+                color: variables.$secondaryTextColor;
+            }
+        }
+    }
+
+    @media (max-width: 640px){
+        display: block;
+        max-width: 300px;
+        margin: 0 auto;
+
+        &__infos{
+            display: block;
+            
+            &__item{
+                margin-bottom: 24px;
+            }
+        }
+    }
+    @media (max-width: 1024px){
+
+        &__infos{
+            gap: 16px;
+        }
+    }
+}

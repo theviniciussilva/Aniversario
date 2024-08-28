@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/feliz-aniversario.png" alt="Balões de aniversário">
+            <p class="hero__text">
+                Venha comemorar comigo!
+                Dia 15 de outubro restam :
+                <span class="hero__text hero__text__timer" id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Hopi Hari - Rod. dos Bandeirantes - Vinhedo - SP
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 500,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        15/10/2024 as 19hrs
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">
+                    Garanta seus convites
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--foods" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Comidas Deliciosas</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti itaque provident tenetur animi a aperiam error dicta inventore eveniet natus, iure ducimus sapiente praesentium quaerat eius molestiae nulla enim tempora!</p>
+            </div>
+            <img class="event__image" src="./images/muffins.webp" alt="muffins">
+        </div>
+    </section>
+    <section class="event event--brinquedos event--image-left" >
+        <div class="container" data-aos="fade-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Diversos Brinquedos</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti itaque provident tenetur animi a aperiam error dicta inventore eveniet natus, iure ducimus sapiente praesentium quaerat eius molestiae nulla enim tempora!</p>
+            </div>
+            <img class="event__image" src="./images/brinquedo.webp" alt="brinquedos">
+        </div>
+    </section>
+    <section class="event event--presentes">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Presentes a vontade!</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti itaque provident tenetur animi a aperiam error dicta inventore eveniet natus, iure ducimus sapiente praesentium quaerat eius molestiae nulla enim tempora!</p>
+            </div>
+            <img class="event__image" src="./images/presentes.jpg" alt="Presentes">
+        </div>
+    </section>
+    <section class="event event--happy event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Muita felicidade</h2>
+                <p class="event__details__description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti itaque provident tenetur animi a aperiam error dicta inventore eveniet natus, iure ducimus sapiente praesentium quaerat eius molestiae nulla enim tempora!</p>
+            </div>
+            <img class="event__image" src="./images/felicidade.jpg" alt="Imagem positiva">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
